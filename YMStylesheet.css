@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#476A7A;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+
+.left {
+	height: 300px;
+	width: 150px;
+	background-color: #A7DBD8;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.right {
+	height: 300px;
+	width: 450px;
+	background-color: #E0E4CC;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#footer {
+	height: 50px;
+	background-color: #69D2E7;
+	/*Add your CSS here!*/
+    clear:both;
+}
+
+#header {
+	width: 120%;
+	height: 120px;
+	margin-top: -20px;
+	margin-left: -10px;
+	background-color: #E2DCBC;
+	position:fixed;
+	display:block
+}
+
+#banner {
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+
+#FindATeacherButton {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 25px;
+	width: 220px;
+	margin: auto;
+	text-align: center;
+	clear: both;
+}
+

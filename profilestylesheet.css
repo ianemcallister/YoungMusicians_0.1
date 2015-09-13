@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #b7d1c4
+}
+
+/*{
+	border: 1px dashed blue;
+}*/
+
+h2 {
+	color: black;
+}
+
+h4 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+	margin-top:-20px;
+}
+
+div {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	/*Add your CSS here!*/
+	display:block;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+#profile {
+	height: 900px;
+	width: 400px;
+	border: 1px solid white;
+	border-radius: 5px;
+	Margin-left: 10px;
+	background-color: #FFC;
+	display:block;
+}
+
+#photo {
+	height: 180px;
+	width: 150px;
+	border: none;
+	box-shadow: rgba(0,0,0,0.2) 3px 3px;
+	Margin-left: 10px;
+	Margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#individual {
+	float: right;
+	width: 217px;
+	height: 180px;
+	Margin-top: 10px;
+	Margin-right: 10px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+#studio {
+	width: 380px;
+	height: 300px;
+	border: none;
+	border-radius: 0px;
+	clear: both;
+	Margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#connections {
+	width: 380px;
+	height: 140px;
+	border: none;
+	border-radius: 0px;
+	clear: both;
+	Margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#star {
+	height: 18px;
+	width: 18px;
+}
+
+#blackbox {
+	width: 250px;
+	height: 90px;
+	border-radius: 0px;
+	border: 1px dashed black;
+}
+
+#piechart {
+	width: 200px;
+	height: 200px;
+	border-radius: 0px;
+	border: none;
+}
+
+#malebreakdown {
+	width: 92px;
+	height: 20px;
+	border-radius:0px;
+	font-size:13px;
+	display:inline-block;
+	border: none;
+	background-color:#00F;
+	color: white;
+	text-align: left;
+	padding-right:0px;
+}
+
+#femalebreakdown {
+	width: 157px;
+	height: 20px;
+	border-radius:0px;
+	font-size:13px;
+	display:inline-block;
+	border: none;
+	background-color: #F69;
+	text-align: right;
+	padding-left: 0px;
+	color: white;
+
+}
+
+#agebreakdown {
+
+}
+
+#homebutton {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 25px;
+	width: 220px;
+	margin: auto;
+	text-align: center;
+}
+
+
+span {
+	font-size:22px;
+	color:#F1A243;
+}
+
+.header {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color: #F06;
+}
+
+.credentials {
+	font-size:14px;
+	font-family:Tahoma, Geneva, sans-serif;
+}

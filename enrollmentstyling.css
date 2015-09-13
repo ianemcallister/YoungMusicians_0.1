@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#476A7A;
+}
+
+
+.teacherFinder {
+	height: 200px;
+	width: 400px;
+	display:block;
+}
+
+#input {
+	margin-left: 100px;
+	background-color: #FF0;
+	padding: 20px;
+}
+
+#results {
+	margin-left: 100px;
+	background-color:#0F0;
+	padding: 20px;
+}

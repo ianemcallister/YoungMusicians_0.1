@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 25px;
+	width: 220px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+#profile {
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 250px;
+	width: 400px;
+	text-align: center;
+}
+
+#photo {
+	height: 120px;
+	width: 100px;
+	background-color: #45ADA8;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #FFFFFF;
+	
+}
+
+#name {
+	text-align: left;
+	margin-left: 120px;
+	font-family: Verdana, sans-serif;
+	color: #FF00CC;
+}
+
+#title {
+	text-align: left;
+	margin-left: 120px;
+	font-family: Verdana, sans-serif;
+	font-size:12px;
+	color: #00000;
+	
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" rel="stylesheet" href="enrollmentstyling.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Enrollment</title>
+</head>
+
+<body>
+
+<div class="teacherFinder" id="input">
+	<form name="studentInfo" method="get" action="getUserInfo()">
+    	What is your zip? <input type="number" name="zip" /><br />
+        How old is the student? <input type="number" name="age"/><br />
+        
+        Has the student taken before?
+        <input type="radio" name="transfeer" value="Yes" />Yes
+        <input type="radio" name="transfeer" value="no"/>No<br />
+        
+        If so, when was their last lesson?
+        <input type="date" name="lastlesson"/><br />
+        
+        For how long did they take lessons?
+        <input type="number" name="lessonyears"/>years<br />
+        <input type="submit" value="Submit" />
+    </form>
+
+<button type="button" onclick="displayDate()">Display Zip</button>
+
+</div>
+
+
+<div class="teacherFinder" id="results">
+	<p id="demo">This is just an example.</p>
+</div>
+
+
+
+
+<script>
+function displayDate()	{
+	document.getElementById("demo").innerHTML=document.getElementsByName("studentInfo")[0];
+}
+
+</script>
+
+</body>
+</html>
